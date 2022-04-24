@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "apple-baseband"
+version = "0.1"
+description = "Tooling to support Apple Baseband Firmware"
+readme = "README.md"
+authors = ["Rick Mark <"]
+homepage = "https://github.com/hack-different/apple-baseband"
+repository = "https://github.com/hack-different/apple-baseband.git"
+license = "MIT"
+
+classifiers = [
+    'Programming Language :: Python :: 3',
+    'License :: OSI Approved :: MIT License',
+    'Operating System :: OS Independent'
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pyelftools = "^0.28"
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.942"
+black = "^22.3.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
