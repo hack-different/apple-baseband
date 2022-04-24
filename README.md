@@ -7,4 +7,7 @@ RE tooling kit for Apple modem baseband
 * Extract Qualcomm FBPT (imjtool for instance)
 * Identify trustlets (.msm) and join them into ELF files
 * Identify updaters and extract payloads
-* 
+
+## Reference
+
+* https://github.com/rpw/hexagon
