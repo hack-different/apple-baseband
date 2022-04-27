@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 # Adapted from https://github.com/laginimaineb/unify_trustlet
 
 import sys
