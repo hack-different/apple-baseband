@@ -28,8 +28,9 @@ class QualcommSignatureHeader:
     next_header_size: int
 
     @classmethod
-    def from_bytes(cls, input_data: io.IOBase) -> "QualcommSignatureHeader":
-        return QualcommSignatureHeader(*struct.unpack_from(QualcommSignatureHeader.HEADER_FORMAT, input_data, 0))
+    def from_bytes(cls, input_data: io.BytesIO) -> "QualcommSignatureHeader":
+        data = input_data.read(struct.calcsize(cls.HEADER_FORMAT))
+        return QualcommSignatureHeader(*struct.unpack_from(QualcommSignatureHeader.HEADER_FORMAT, data, 0))
 
 
 class QualcommSignature:

@@ -1,6 +1,3 @@
-[submodule "ext/unify_trustlet"]
-	path = ext/unify_trustlet
-	url = https://github.com/laginimaineb/unify_trustlet.git
 [submodule "ext/hexag00n"]
 	path = ext/hexag00n
 	url = https://github.com/programa-stic/hexag00n.git

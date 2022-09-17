@@ -11,3 +11,9 @@ RE tooling kit for Apple modem baseband
 ## Reference
 
 * https://github.com/rpw/hexagon
+
+## Credits
+
+### `unify_trustlet.py`
+
+https://github.com/laginimaineb/unify_trustlet.git
